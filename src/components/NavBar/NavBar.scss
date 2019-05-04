@@ -1,0 +1,55 @@
+$hover: blue;
+$active: pink;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.navBar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: gray;
+  height: 60px;
+
+  .navBarNavigation {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    .navBarLogo {
+      color: white;
+      text-decoration: none;
+      font-size: 1.5rem;
+      padding: 0 1rem;
+    }
+    .spaceBetween {
+      flex: 1;
+    }
+    .navBarNavigationItems {
+      ul {
+        display: flex;
+
+        li {
+          list-style: none;
+
+          .navBarNavigationItem {
+            color: white;
+            text-decoration: none;
+            padding: 0 0.5rem;
+            &:hover {
+              cursor: pointer;
+              color: $hover;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .navBarNavigationItems {
+    display: none;
+  }
+}
