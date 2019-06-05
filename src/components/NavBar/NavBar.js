@@ -6,15 +6,15 @@ import HamburgerButton from './HamburgerMenu/HamburgerButton';
 const NavBar = props => (
   <header className="navBar">
     <nav className="navBarNavigation">
-      <HamburgerButton
-        hamburgerToggleClickHandler={props.hamburgerToggleClickHandler}
-      />
       <div className="navBarLogoContainer">
         <NavLink className="navBarLogo" to="/">
           LOGGA
         </NavLink>
       </div>
       <div className="spaceBetween"> </div>
+      <HamburgerButton
+        hamburgerToggleClickHandler={props.hamburgerToggleClickHandler}
+      />
       <div className="navBarNavigationItems">
         <ul>
           <li>
