@@ -1,5 +1,6 @@
 import React from 'react';
 import testImage from '../../images/nature-test.jpg';
+import Button from '@material-ui/core/Button';
 
 import './ArticleCard.scss';
 
@@ -16,6 +17,9 @@ const ArticleCard = () => {
           <a href="#">läs mer</a>
         </div>
       </div>
+      <Button variant="contained" color="primary">
+        Hello World
+        </Button>
     </div>
   );
 };
