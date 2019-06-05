@@ -1,10 +1,11 @@
 $headlineSize: 1rem;
-$textSize: 0.7rem;
+$textSize: 11px;
 $linkSize: 0.5rem;
 .scroll-container {
   .card {
     margin: 10px;
     width: 150px;
+    border:1px solid;
 
     .image-container {
       width: 100%;
