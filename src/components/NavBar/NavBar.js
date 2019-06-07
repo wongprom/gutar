@@ -2,6 +2,7 @@ import React from 'react';
 import './NavBar.scss';
 import { NavLink } from 'react-router-dom';
 import HamburgerButton from './HamburgerMenu/HamburgerButton';
+import Search from '@material-ui/icons/Search'
 
 const NavBar = props => (
   <header className="navBar">
@@ -10,8 +11,13 @@ const NavBar = props => (
         <NavLink className="navBarLogo" to="/">
           LOGGA
         </NavLink>
+
       </div>
-      <div className="spaceBetween"> </div>
+      <div className="search-container">
+        <div className="search">
+          <Search />
+        </div>
+      </div>
       <HamburgerButton
         hamburgerToggleClickHandler={props.hamburgerToggleClickHandler}
       />
