@@ -11,10 +11,10 @@ const NavBar = props => (
         <NavLink className="navBarLogo" to="/">
           LOGGA
         </NavLink>
-
       </div>
       <div className="search-container">
         <div className="search">
+          <input />
           <div className="search-icon">
             <Search />
           </div>
