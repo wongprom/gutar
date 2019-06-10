@@ -15,7 +15,9 @@ const NavBar = props => (
       </div>
       <div className="search-container">
         <div className="search">
-          <Search />
+          <div className="search-icon">
+            <Search />
+          </div>
         </div>
       </div>
       <HamburgerButton

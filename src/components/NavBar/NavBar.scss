@@ -5,6 +5,8 @@ $active: pink;
   margin: 0;
   padding: 0;
 }
+
+// -------NAVBAR--------
 .navBar {
   position: fixed;
   top: 0;
@@ -23,23 +25,28 @@ $active: pink;
       font-size: 1.5rem;
       padding-left:1rem;
     }
+
     .search-container {
       flex: 1;
-      .search{
+      .search {
+        display: flex;
+        justify-content: flex-end;
+        width: 90%;
         margin: 0 auto;
-        width: 80%;
-        background-color: antiquewhite;
         min-height: 24px;
-        padding: 0 1rem;
-      }
+         background-color: rgb(208, 147, 68);
+        .search-icon{
+          width: 1.5rem;
+          height: 24px;
+        }
+      } 
     }
+
     .navBarNavigationItems {
       ul {
         display: flex;
-
         li {
           list-style: none;
-
           .navBarNavigationItem {
             color: white;
             text-decoration: none;
@@ -54,6 +61,8 @@ $active: pink;
     }
   }
 }
+
+
 
 @media (max-width: 768px) {
   .navBarNavigationItems {
