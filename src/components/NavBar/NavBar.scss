@@ -13,7 +13,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  background: gray;
+  background: $PrimaryGray;
   height: 60px;
 
   .navBarNavigation {
@@ -21,7 +21,7 @@
     height: 100%;
     align-items: center;
     .navBarLogo {
-      color: white;
+      color:$PrimaryWhite;
       text-decoration: none;
       font-size: 1.5rem;
       padding-left:1rem;
@@ -35,15 +35,16 @@
         width: 90%;
         margin: 0 auto;
         min-height: 24px;
-         background-color: rgb(208, 147, 68);
          input {
            width: 100%;
            caret-color: $PrimaryLightBlue;
-
+           outline: none;
+           font-size: $FontSizeDefault;
          }
         .search-icon{
           width: 1.5rem;
           height: 24px;
+          background-color: $PrimaryWhite;
         }
       } 
     }
