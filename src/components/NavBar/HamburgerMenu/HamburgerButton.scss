@@ -1,3 +1,4 @@
+@import "../../../utilities/variables";
 .hamburgerButtonContainer {
   display: flex;
   flex-direction: column;
@@ -13,7 +14,7 @@
   .buttonLine {
     width: 30px;
     height: 2px;
-    background: blue;
+    background: $PrimaryLightBlue;
   }
 }
 @media (min-width: 768px) {
