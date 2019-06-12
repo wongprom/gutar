@@ -1,9 +1,14 @@
+@import "../../utilities/variables";
+
 .divider {
+  display: flex;
+  align-items: center;
   height: 30px;
   width: 100%;
-  background: gray;
-
+  background: $PrimaryGray;
+  color: $PrimaryGreen;
   p {
     margin-left: 10px;
+    
   }
 }
