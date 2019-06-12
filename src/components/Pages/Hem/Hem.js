@@ -6,7 +6,12 @@ import SockenBlock from '../../Card/SockenBlock';
 
 import './Hem.scss';
 
+import ArticlesData from "../../../utilities/fakeData";
+
+
+
 const Hem = () => {
+  console.log(ArticlesData);
   const mestLastaArtikel = 'Mest Lästa Artikel';
   const nyastArtiklar = 'Nyast Artiklar';
   const allaSocknar = 'Socknar På Gotland';
