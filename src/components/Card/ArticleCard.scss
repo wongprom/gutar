@@ -20,6 +20,8 @@ $linkSize: 0.5rem;
       display: flex;
       flex-direction: column;
       align-items: center;
+      height: 120px;
+      overflow: scroll;
       .headline {
         margin-top: 5px;
         text-decoration: underline;

@@ -6,12 +6,16 @@ import SockenBlock from '../../Card/SockenBlock';
 
 import './Hem.scss';
 
-import ArticlesData from "../../../utilities/fakeData";
+import { articles } from "../../../utilities/fakeData";
 
+import testImage from '../../../images/nature-test.jpg';
 
 
 const Hem = () => {
-  console.log(ArticlesData);
+  const data = articles;
+  // data.map(article => {
+  //   console.log(article)
+  // })
   const mestLastaArtikel = 'Mest Lästa Artikel';
   const nyastArtiklar = 'Nyast Artiklar';
   const allaSocknar = 'Socknar På Gotland';
@@ -24,25 +28,37 @@ const Hem = () => {
   const farosund = 'fårösund';
   const larbro = 'lärbro';
 
+
+  // const articleCard = data.map(item => <ArticleCard key={item.id} data={item} />)
+
+
   return (
     <div>
       <HeroSection />
-
       <Divider nyastArtiklar={nyastArtiklar} />
       <div className="scroll-section">
-        <ArticleCard />
-        <ArticleCard />
-        <ArticleCard />
-        <ArticleCard />
+
+        {data.map(item =>
+          <ArticleCard
+            heading={item.heading}
+            articleContent={item.articleContent}
+            img={item.img}
+          />
+        )}
+
+        {/* {articleCard} */}
       </div>
       <Divider mestLastaArtikel={mestLastaArtikel} />
       <div className="scroll-section">
-        <ArticleCard />
-        <ArticleCard />
-        <ArticleCard />
-        <ArticleCard />
+        {data.map(item =>
+          <ArticleCard
+            heading={item.heading}
+            articleContent={item.articleContent}
+            img={item.img}
+          />
+        )}
       </div>
-      <Divider allaSocknar={allaSocknar} />
+      {/* <Divider allaSocknar={allaSocknar} />
       <div className="scroll-section">
         <SockenBlock visby={visby} />
         <SockenBlock tingstade={tingstade} />
@@ -51,7 +67,7 @@ const Hem = () => {
         <SockenBlock faro={faro} />
         <SockenBlock farosund={farosund} />
         <SockenBlock larbro={larbro} />
-      </div>
+      </div>*/}
     </div>
   );
 };
