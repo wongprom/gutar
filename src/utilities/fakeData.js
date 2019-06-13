@@ -2,7 +2,9 @@ import ArticleImage from "../images/sunset-1920x1079jpg.jpg";
 import AngBatar from "../images/gotlandsAngBatarAB.jpg";
 import Petterkvist from "../images/petterkvist.jpg";
 
-const articles = [
+
+
+export const articles = [
   {
     id: 1,
     img: ArticleImage,
@@ -105,4 +107,3 @@ const articles = [
 ]
 
 
-export default articles;
