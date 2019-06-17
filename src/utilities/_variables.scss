@@ -12,3 +12,8 @@ $FontSizeDefault: 12px;
 
 $hover: blue;
 $active: pink;
+
+@mixin list-default {
+  list-style: none;
+  color:$PrimaryLightBlue;
+}
