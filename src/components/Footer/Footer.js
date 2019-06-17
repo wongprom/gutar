@@ -1,15 +1,26 @@
 import React from 'react';
 import './Footer.scss';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCoffee, faGlobeAfrica, faSurprise } from '@fortawesome/free-solid-svg-icons'
+// import { faFileArchive } from '@fortawesome/free-solid-svg-icons'
+
+
 import { NavLink } from 'react-router-dom';
 
 const footer = () => {
   return (
     <footer>
       <div className="icons-wrapper">
-        <div className="icon-container"></div>
-        <div className="icon-container"></div>
-        <div className="icon-container"></div>
+        <div className="icon-container">
+          <FontAwesomeIcon icon={faSurprise} size={"2x"} />
+        </div>
+        <div className="icon-container">
+          <FontAwesomeIcon icon={faCoffee} size={"2x"} />
+        </div>
+        <div className="icon-container">
+          <FontAwesomeIcon icon={faGlobeAfrica} size={"2x"} />
+        </div>
       </div>
       <div className="links-wrapper">
         <div className="go-to">
@@ -32,10 +43,7 @@ const footer = () => {
             </li>
           </ul>
         </div>
-
       </div>
-
-
     </footer>
   );
 };
