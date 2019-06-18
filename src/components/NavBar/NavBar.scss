@@ -1,6 +1,4 @@
 @import "../../utilities/variables";
-// $hover: blue;
-// $active: pink;
 
 * {
   margin: 0;
@@ -55,12 +53,12 @@
         li {
           list-style: none;
           .navBarNavigationItem {
-            color: white;
+            // color: white;
             text-decoration: none;
             padding: 0 0.5rem;
             &:hover {
               cursor: pointer;
-              color: $hover;
+              // color: $hover;
             }
           }
         }

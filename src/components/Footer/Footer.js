@@ -27,17 +27,18 @@ const footer = () => {
           <p className="sub-header">Gå till</p>
           <ul>
             <li>
-              <NavLink className="navBarNavigationItem" to="/">
+              <NavLink
+                activeClassName="active" className="navBarNavigationItem" exact to="/">
                 Hem
             </NavLink>
             </li>
             <li>
-              <NavLink className="navBarNavigationItem" to="/NyastArtiklar">
+              <NavLink activeClassName="active" className="navBarNavigationItem" to="/NyastArtiklar">
                 Nyast Artiklar
             </NavLink>
             </li>
             <li>
-              <NavLink className="navBarNavigationItem" to="/MestLastaArtiklar">
+              <NavLink activeClassName="active" className="navBarNavigationItem" to="/MestLastaArtiklar">
                 Mest Lästa Artiklar
             </NavLink>
             </li>

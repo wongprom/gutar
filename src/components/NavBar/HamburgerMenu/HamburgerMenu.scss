@@ -1,12 +1,14 @@
+@import "../../../utilities/variables.scss";
 .hamburgerMenu {
   height: 100%;
-  background: white;
+  background-color: $PrimaryDarkGray;
+  color: $PrimaryWhite;
   box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.5);
   position: fixed;
   top: 0;
   left: 0;
-  width: 70%;
-  max-width: 350px;
+  width: 100%;
+  // max-width: 350px;
   z-index: 200;
   transform: translateX(-100%);
   transition: transform 0.3s ease-out;
@@ -20,11 +22,20 @@
     align-items: center;
 
     li {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      // background-color: lightblue;
+      width: 100%;
+      &:hover{
+        background-color: $PrimaryWhite;
+      }
       .hamburgerLink {
         text-decoration: none;
-        color: black;
+        // color: $PrimaryWhite;
         font-size: 1.5rem;
       }
+      
     }
   }
 }
@@ -32,4 +43,7 @@
 //open/close hamburger menu
 .hamburgerMenu.open {
   transform: translateX(0);
+}
+.active{
+  color: red;
 }

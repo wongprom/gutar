@@ -31,7 +31,7 @@ function NavBar(props) {
         <div className="navBarNavigationItems">
           <ul>
             <li>
-              <NavLink className="navBarNavigationItem" to="/">
+              <NavLink className="navBarNavigationItem" exact to="/">
                 Hem
             </NavLink>
             </li>

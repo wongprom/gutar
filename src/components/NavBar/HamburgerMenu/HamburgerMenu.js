@@ -13,27 +13,27 @@ const hamburgerMenu = props => {
     <nav className={className}>
       <ul>
         <li>
-          <NavLink className="hamburgerLink" to="/">
+          <NavLink activeClassName="active" className="hamburgerLink" exact to="/">
             Hem
           </NavLink>
         </li>
         <li>
-          <NavLink className="hamburgerLink" to="/NyastArtiklar">
+          <NavLink activeClassName="active" className="hamburgerLink" to="/NyastArtiklar">
             Nyast Artiklar
           </NavLink>
         </li>
         <li>
-          <NavLink className="hamburgerLink" to="/MestLastaArtiklar">
+          <NavLink activeClassName="active" className="hamburgerLink" to="/MestLastaArtiklar">
             Mest Lästa Artiklar
           </NavLink>
         </li>
         <li>
-          <NavLink className="hamburgerLink" to="/Socknar">
+          <NavLink activeClassName="active" className="hamburgerLink" to="/Socknar">
             Socknar
           </NavLink>
         </li>
         <li>
-          <NavLink className="hamburgerLink" to="/OmOss">
+          <NavLink activeClassName="active" className="hamburgerLink" to="/OmOss">
             Om Oss
           </NavLink>
         </li>

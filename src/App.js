@@ -48,7 +48,7 @@ class App extends Component {
           <main>
             <Switch>
 
-              <Route path="/" component={Hem} exact />
+              <Route path="/" exact component={Hem} />
               <Route path="/NyastArtiklar" component={NyastArtiklar} />
               <Route path="/MestLastaArtiklar" component={MestLastaArtiklar} />
               <Route path="/Socknar" component={Socknar} />

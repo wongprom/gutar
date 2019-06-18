@@ -5,13 +5,14 @@ $PrimaryGreen:#245A64;
 $PrimaryOrange:#CC5614;
 $PrimaryLightGray:#F8F8F8;
 $PrimaryGray:#d1d3d4;
+$PrimaryDarkGray:#606060;
 $PrimaryWhite:#FFFFFF;
 
 $FontSizeDefault: 12px;
 
 
-$hover: blue;
-$active: pink;
+// $hover: blue;
+// $active: pink;
 
 @mixin list-default {
   list-style: none;
