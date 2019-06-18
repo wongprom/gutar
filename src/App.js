@@ -39,7 +39,7 @@ class App extends Component {
     }
     return (
       <BrowserRouter>
-        <div style={{ height: '100%' }}>
+        <div className="site">
           <NavBar
             hamburgerToggleClickHandler={this.hamburgerToggleClickHandler}
           />
@@ -47,12 +47,15 @@ class App extends Component {
           {backdrop}
           <main>
             <Switch>
+
               <Route path="/" component={Hem} exact />
               <Route path="/NyastArtiklar" component={NyastArtiklar} />
               <Route path="/MestLastaArtiklar" component={MestLastaArtiklar} />
               <Route path="/Socknar" component={Socknar} />
               <Route path="/OmOss" component={OmOss} />
               <Route component={FelURL} />
+
+
             </Switch>
           </main>
 

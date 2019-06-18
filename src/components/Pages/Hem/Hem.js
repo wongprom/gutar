@@ -33,7 +33,8 @@ const Hem = () => {
 
 
   return (
-    <div>
+    // style={{ flex: "1" }} is for the sticky footer
+    <div style={{ flex: "1" }}>
       <HeroSection />
       <Divider nyastArtiklar={nyastArtiklar} />
       <div className="scroll-section">
@@ -59,7 +60,7 @@ const Hem = () => {
         )}
       </div>
       {/* <Divider allaSocknar={allaSocknar} />
-      <div className="scroll-section">
+        <div className="scroll-section" />
         <SockenBlock visby={visby} />
         <SockenBlock tingstade={tingstade} />
         <SockenBlock vibble={vibble} />
