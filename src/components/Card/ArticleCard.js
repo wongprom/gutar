@@ -5,7 +5,7 @@ import './ArticleCard.scss';
 
 const ArticleCard = (props) => {
   const test = props.articleContent;
-  console.log(test);
+
 
   return (
 

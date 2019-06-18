@@ -43,7 +43,9 @@ class App extends Component {
           <NavBar
             hamburgerToggleClickHandler={this.hamburgerToggleClickHandler}
           />
-          <HamburgerMenu show={this.state.hamburgerMenuOpen} />
+          <HamburgerMenu
+            hamburgerToggleClickHandler={this.hamburgerToggleClickHandler}
+            show={this.state.hamburgerMenuOpen} />
           {backdrop}
           <main>
             <Switch>
