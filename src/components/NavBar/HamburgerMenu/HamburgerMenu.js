@@ -3,7 +3,11 @@ import { NavLink } from 'react-router-dom';
 
 import './HamburgerMenu.scss';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faTimes } from '@fortawesome/free-solid-svg-icons'
+
 const hamburgerMenu = props => {
+  console.log(props)
   let className = 'hamburgerMenu';
 
   if (props.show) {
@@ -11,29 +15,37 @@ const hamburgerMenu = props => {
   }
   return (
     <nav className={className}>
+      <div className="icon-container">
+        <FontAwesomeIcon
+          onClick={props.hamburgerToggleClickHandler}
+          className="icon"
+          icon={faTimes}
+          size={"2x"}
+        />
+      </div>
       <ul>
         <li>
-          <NavLink activeClassName="active" className="hamburgerLink" exact to="/">
+          <NavLink activeClassName="active" onClick={props.hamburgerToggleClickHandler} className="hamburgerLink" exact to="/">
             Hem
           </NavLink>
         </li>
         <li>
-          <NavLink activeClassName="active" className="hamburgerLink" to="/NyastArtiklar">
+          <NavLink activeClassName="active" onClick={props.hamburgerToggleClickHandler} className="hamburgerLink" to="/NyastArtiklar">
             Nyast Artiklar
           </NavLink>
         </li>
         <li>
-          <NavLink activeClassName="active" className="hamburgerLink" to="/MestLastaArtiklar">
+          <NavLink activeClassName="active" onClick={props.hamburgerToggleClickHandler} className="hamburgerLink" to="/MestLastaArtiklar">
             Mest Lästa Artiklar
           </NavLink>
         </li>
         <li>
-          <NavLink activeClassName="active" className="hamburgerLink" to="/Socknar">
+          <NavLink activeClassName="active" onClick={props.hamburgerToggleClickHandler} className="hamburgerLink" to="/Socknar">
             Socknar
           </NavLink>
         </li>
         <li>
-          <NavLink activeClassName="active" className="hamburgerLink" to="/OmOss">
+          <NavLink activeClassName="active" onClick={props.hamburgerToggleClickHandler} className="hamburgerLink" to="/OmOss">
             Om Oss
           </NavLink>
         </li>
