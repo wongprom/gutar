@@ -1,0 +1,27 @@
+@import "../../utilities/variables";
+
+.btn{
+  background-color: $PrimaryLightBlue;
+  color:$PrimaryWhite;
+  height: 30px;
+  width:100%;
+  border-radius: 25px;
+  cursor: pointer;
+  border: none;
+  // box-shadow: 0 2px #999;
+  &:hover{
+    background-color:$PrimaryWhite;
+    color:$PrimaryLightBlue;
+    border: 2px solid $PrimaryLightBlue;
+  }
+  &:active{
+    background-color:$PrimaryDarkBlue;
+    color:$PrimaryWhite;
+    box-shadow: 0 2px #666;
+    transform: translateY(2px);
+    outline: none;
+  }
+  &:focus{
+    outline-style: none;
+  }
+}

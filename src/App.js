@@ -49,15 +49,12 @@ class App extends Component {
           {backdrop}
           <main>
             <Switch>
-
               <Route path="/" exact component={Hem} />
               <Route path="/NyastArtiklar" component={NyastArtiklar} />
               <Route path="/MestLastaArtiklar" component={MestLastaArtiklar} />
               <Route path="/Socknar" component={Socknar} />
               <Route path="/OmOss" component={OmOss} />
               <Route component={FelURL} />
-
-
             </Switch>
           </main>
 

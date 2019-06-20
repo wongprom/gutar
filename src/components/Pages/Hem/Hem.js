@@ -2,6 +2,8 @@ import React from 'react';
 import ArticleCard from '../../Card/ArticleCard';
 import HeroSection from '../../HeroSection/HeroSection';
 import Divider from '../../Divider/Divider';
+import FormContainer from '../../FormContainer/FormContainer';
+
 import SockenBlock from '../../Card/SockenBlock';
 
 import './Hem.scss';
@@ -69,6 +71,7 @@ const Hem = () => {
         <SockenBlock farosund={farosund} />
         <SockenBlock larbro={larbro} />
       </div>*/}
+      <FormContainer />
     </div>
   );
 };
