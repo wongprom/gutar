@@ -1,23 +1,17 @@
+@import "../../utilities/variables";
 form{
-  background-color: lightyellow; 
+  
   max-width: 360px;
   min-width: 360px;
-
   margin: 0 auto;
   .container{
     width: 80%;
     padding: 2rem;
-    background-color: lightpink;
+    background-color: $PrimaryGray;
     display: flex;
     flex-direction: column;
-    
     align-items: center;
-
-    
-    
-    border: 1px solid red;
     margin: 0 auto;
-
     .btn-container{
       width: 100%;
     }
