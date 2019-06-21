@@ -1,11 +1,26 @@
+@import "../../utilities/variables";
 .hero-section {
   position: fixed;
   top: 60px;
-  width: 100%;
+  min-width: 360px;
   height: 100px;
 
   img {
     width: 100%;
     max-height: 100%;
+    position: relative;
+  }
+  //Text on heroImage
+  .text-box{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    position: absolute; 
+    top: 15%; 
+    left: 25%; 
+     
   }
 }
