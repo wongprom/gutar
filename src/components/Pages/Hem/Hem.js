@@ -15,32 +15,20 @@ import testImage from '../../../images/nature-test.jpg';
 
 const Hem = () => {
   const data = articles;
-  // data.map(article => {
-  //   console.log(article)
-  // })
+
   const mestLastaArtikel = 'Mest Lästa Artikel';
   const nyastArtiklar = 'Nyast Artiklar';
-  const allaSocknar = 'Socknar På Gotland';
 
-  const visby = 'visby';
-  const tingstade = 'tingstade';
-  const vibble = 'vibble';
-  const hoburgen = 'hoburgen';
-  const faro = 'fårö';
-  const farosund = 'fårösund';
-  const larbro = 'lärbro';
-
-
-  // const articleCard = data.map(item => <ArticleCard key={item.id} data={item} />)
-
+  // styling for component Divider
+  const defaultStyling = "divider"
 
   return (
-    // style={{ flex: "1" }} is for the sticky footer
+    //  style={{ flex: "1" }} is for the sticky footer
     <div style={{ flex: "1", marginTop: "160px" }}>
       <HeroSection />
-      <Divider text={nyastArtiklar} />
+      <Divider className={defaultStyling} header={nyastArtiklar} />
       <div className="scroll-section">
-
+        {/* outPut amount of cards with content depending on length of data */}
         {data.map(item =>
           <ArticleCard
             heading={item.heading}
@@ -49,9 +37,8 @@ const Hem = () => {
           />
         )}
 
-        {/* {articleCard} */}
       </div>
-      <Divider text={mestLastaArtikel} />
+      <Divider className={defaultStyling} header={mestLastaArtikel} />
       <div className="scroll-section">
         {data.map(item =>
           <ArticleCard
@@ -61,16 +48,6 @@ const Hem = () => {
           />
         )}
       </div>
-      {/* <Divider allaSocknar={allaSocknar} />
-        <div className="scroll-section" />
-        <SockenBlock visby={visby} />
-        <SockenBlock tingstade={tingstade} />
-        <SockenBlock vibble={vibble} />
-        <SockenBlock hoburgen={hoburgen} />
-        <SockenBlock faro={faro} />
-        <SockenBlock farosund={farosund} />
-        <SockenBlock larbro={larbro} />
-      </div>*/}
       <FormContainer />
     </div>
   );

@@ -3,6 +3,19 @@ import AngBatar from "../images/gotlandsAngBatarAB.jpg";
 import Petterkvist from "../images/petterkvist.jpg";
 
 
+export const socknar = [
+  {
+    visby: 'visby',
+    tingstade: 'tingstade',
+    vibble: 'vibble',
+    hoburgen: 'hoburgen',
+    faro: 'fårö',
+    farosund: 'fårösund',
+    larbro: 'lärbro',
+  }
+
+]
+
 
 export const articles = [
   {
