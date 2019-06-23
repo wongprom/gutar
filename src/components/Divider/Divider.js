@@ -5,7 +5,7 @@ const divider = props => {
   return (
     <div className="divider">
       <p>
-        {props.text}  {props.allaSocknar}
+        {props.header}
       </p>
     </div>
   );

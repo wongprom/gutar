@@ -8,10 +8,10 @@ import { articles } from "../../../utilities/fakeData";
 
 const NyastArtiklar = () => {
   const data = articles
-  const mestLastaArtikel = 'Mest Lästa Artikel';
+  const text = 'Nyast Artiklar';
   return (
     <div className="nyastArtikel">
-      <Divider text={mestLastaArtikel} />
+      <Divider header={text} />
       <main>
 
         {data.map(item =>
