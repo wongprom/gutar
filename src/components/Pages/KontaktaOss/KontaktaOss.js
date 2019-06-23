@@ -1,12 +1,16 @@
-import React, { Component } from 'react'
+import React from 'react'
+import FormContainer from '../../FormContainer/FormContainer';
 
-class KontaktaOss extends Component {
-  render() {
-    return (
-      <div>
-        Kontakta oss
-      </div>
-    )
-  }
+import './KontaktaOss.scss';
+
+const KontaktaOss = () => {
+  return (
+    <div className="kontakta-oss" >
+      <FormContainer />
+    </div>
+  )
 }
+
 export default KontaktaOss
+
+
