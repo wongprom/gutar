@@ -36,9 +36,9 @@ const Hem = () => {
 
   return (
     // style={{ flex: "1" }} is for the sticky footer
-    <div style={{ flex: "1" }}>
+    <div style={{ flex: "1", marginTop: "160px" }}>
       <HeroSection />
-      <Divider nyastArtiklar={nyastArtiklar} />
+      <Divider text={nyastArtiklar} />
       <div className="scroll-section">
 
         {data.map(item =>
@@ -51,7 +51,7 @@ const Hem = () => {
 
         {/* {articleCard} */}
       </div>
-      <Divider mestLastaArtikel={mestLastaArtikel} />
+      <Divider text={mestLastaArtikel} />
       <div className="scroll-section">
         {data.map(item =>
           <ArticleCard

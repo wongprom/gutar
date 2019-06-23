@@ -5,7 +5,7 @@ const divider = props => {
   return (
     <div className="divider">
       <p>
-        {props.mestLastaArtikel} {props.nyastArtiklar} {props.allaSocknar}
+        {props.text}  {props.allaSocknar}
       </p>
     </div>
   );
