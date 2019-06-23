@@ -3,7 +3,7 @@ import './Divider.scss';
 
 const divider = props => {
   return (
-    <div className="divider">
+    <div className={props.className}>
       <p>
         {props.header}
       </p>
