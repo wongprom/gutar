@@ -7,7 +7,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTimes } from '@fortawesome/free-solid-svg-icons'
 
 const hamburgerMenu = props => {
-  console.log(props)
   let className = 'hamburgerMenu';
 
   if (props.show) {
@@ -40,8 +39,8 @@ const hamburgerMenu = props => {
           </NavLink>
         </li>
         <li>
-          <NavLink activeClassName="active" onClick={props.hamburgerToggleClickHandler} className="hamburgerLink" to="/Socknar">
-            Socknar
+          <NavLink activeClassName="active" onClick={props.hamburgerToggleClickHandler} className="hamburgerLink" to="/KontaktaOss">
+            Kontakta Oss
           </NavLink>
         </li>
         <li>
