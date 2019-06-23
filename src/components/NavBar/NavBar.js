@@ -46,8 +46,8 @@ function NavBar(props) {
             </NavLink>
             </li>
             <li>
-              <NavLink className="navBarNavigationItem" to="/Socknar">
-                Socknar
+              <NavLink className="navBarNavigationItem" to="/KontaktaOss">
+                Kontakta Oss
             </NavLink>
             </li>
             <li>

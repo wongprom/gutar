@@ -10,6 +10,7 @@ import MestLastaArtiklar from './components/Pages/MestLastaArtiklar/MestLastaArt
 import NyastArtiklar from './components/Pages/NyastArtiklar/NyastArtiklar';
 import OmOss from './components/Pages/OmOss/OmOss';
 import Socknar from './components/Pages/Socknar/Socknar';
+import KontaktaOss from './components/Pages/KontaktaOss/KontaktaOss';
 import FelURL from './components/Pages/Error/FelURL';
 
 import HamburgerMenu from './components/NavBar/HamburgerMenu/HamburgerMenu';
@@ -54,6 +55,7 @@ class App extends Component {
               <Route path="/MestLastaArtiklar" component={MestLastaArtiklar} />
               <Route path="/Socknar" component={Socknar} />
               <Route path="/OmOss" component={OmOss} />
+              <Route path="/KontaktaOss" component={KontaktaOss} />
               <Route component={FelURL} />
             </Switch>
           </main>
