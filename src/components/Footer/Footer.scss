@@ -1,5 +1,7 @@
 @import "../../utilities/variables";
+
 footer {
+  margin-top: 1rem;
   width: 100%;
   background: gray;
   .icons-wrapper{
@@ -18,16 +20,26 @@ footer {
     height: 50px;
     width: 50px;
     p{
+      color:$PrimaryWhite;
       margin-top: 0.3rem;
+
+      &:hover{
+        color:$PrimaryLightBlue;
+      }
     }
     }
   }
   .links-wrapper{
+    li{
+      font-size: 1.2rem;
+    }
     .go-to{
+      
       margin: 1rem 1rem 0 1rem;
       padding: 1rem;
       .sub-header{
-       margin-bottom: 0.2rem
+       margin-bottom: 0.2rem;
+       font-size:$HeadlineSize3;
       }
       ul{
         @include list-default;
@@ -36,6 +48,29 @@ footer {
     }
     .contact-us{
       margin-top: 1rem;
+      ul{
+        p{
+          font-size:$HeadlineSize3;
+        }
+        li{
+
+        }
+      }
     }
   }
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
