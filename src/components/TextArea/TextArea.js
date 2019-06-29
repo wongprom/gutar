@@ -1,4 +1,5 @@
 import React from 'react'
+import './TextArea.scss';
 
 const TextArea = (props) => {
   return (
