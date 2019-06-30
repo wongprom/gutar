@@ -69,17 +69,10 @@ export class FormContainer extends Component {
   }
 
   render() {
-    console.log(this.state.user.about)
-    let formTitle = {
-      title: 'Kontakta Oss Via Email',
-      subText: '"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC."',
-    }
+
     return (
       <form>
         <div className="container">
-          <h2>{formTitle.title}</h2>
-          <p>{formTitle.subText}</p>
-
           <Input
             title={'Namn'}
             type={'text'}
