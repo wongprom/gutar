@@ -19,7 +19,7 @@ const hamburgerMenu = props => {
           onClick={props.hamburgerToggleClickHandler}
           className="icon"
           icon={faTimes}
-          size={"2x"}
+          size={"3x"}
         />
       </div>
       <ul>
