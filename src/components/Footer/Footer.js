@@ -46,17 +46,17 @@ const footer = () => {
             </NavLink>
             </li>
           </ul>
-          <div className="contact-us">
-            <ul>
-              <p>Kontakta Oss Via E-post</p>
-              <li>
-                <NavLink
-                  activeClassName="active" className="navBarNavigationItem" exact to="/KontaktaOss">
-                  E-post
+        </div>
+        <div className="contact-us">
+          <p className="sub-header">Kontakta Oss Via E-post</p>
+          <ul>
+            <li>
+              <NavLink
+                activeClassName="active" className="navBarNavigationItem" exact to="/KontaktaOss">
+                E-post
             </NavLink>
-              </li>
-            </ul>
-          </div>
+            </li>
+          </ul>
         </div>
       </div>
     </footer>
