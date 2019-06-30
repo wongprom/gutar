@@ -18,6 +18,7 @@ const Hem = () => {
 
   const mestLastaArtikel = 'Mest Lästa Artikel';
   const nyastArtiklar = 'Nyast Artiklar';
+  const kontaktaOss = "Kontakta Oss"
 
   // styling for component Divider
   const defaultStyling = "divider"
@@ -48,6 +49,7 @@ const Hem = () => {
           />
         )}
       </div>
+      <Divider className={defaultStyling} header={kontaktaOss} />
       <FormContainer />
     </div>
   );
