@@ -1,4 +1,59 @@
-.kontakta-oss{
-  margin: 70px 0 10px 0;
-  padding: 1rem;
+@import "../../../utilities/variables";
+
+.kontaktaOss{ 
+  display: flex;
+  flex-direction: column;
+  margin-top: 120px;
+  // margin: 70px 0 10px 0;
+  // padding: 1rem;
+  #header-text{
+    margin: 0 auto;
+    font-size: 3rem;
+    p{
+      
+    }
+  }
+  #header-image{
+    display: none;
+  }
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .kontaktaOss{ 
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 120px;
+    // margin: 70px 0 10px 0;
+    // padding: 1rem;
+    #header-text{
+      display: none;
+    }
+    #header-image{
+      display: block;
+      height: 100%;
+      width: 100%;
+      flex:1;
+      img{
+        max-width: 100%;
+        max-height: 100%;
+      }
+    }
+    .formContainerWrapper{
+flex:1;
+
+    }
+  }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
