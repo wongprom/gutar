@@ -14,9 +14,5 @@
   // fixed position under NavBar
 }
 .divider-fixed {
-  position: fixed;
-  top: 60px;
-
-
-  
+  @include fixed-divider-under-navbar;
 }

@@ -30,3 +30,9 @@ $LinkSize: 0.5rem;
 @mixin list-default {
   list-style: none;
 }
+
+@mixin fixed-divider-under-navbar {
+  position: fixed;
+  top: 60px;
+  left:0; 
+}
