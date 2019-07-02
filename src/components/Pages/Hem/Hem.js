@@ -52,8 +52,11 @@ const Hem = () => {
       <Divider className={defaultStyling} header={kontaktaOss} />
       <div id="kontakta-oss">
         <p>Kontakta Oss</p>
+        <div id="form-container_wrapper">
+          <FormContainer />
+        </div>
       </div>
-      <FormContainer />
+
     </div>
   );
 };

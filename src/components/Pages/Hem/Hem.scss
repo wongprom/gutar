@@ -1,4 +1,5 @@
-main {
+@import '../../../utilities/variables';
+
   .scroll-section {
     display: flex;
     width: 100%;
@@ -6,11 +7,20 @@ main {
     overflow-x: auto;
     margin: 1rem 0;
   }
-}
+
+
 #kontakta-oss{
+  // width: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  font-size: 3rem;
+  align-items: center;
+  // font-size: 3rem;
   margin-top: 1rem;
-  
+  p{
+font-size: $FontSizeDefault5;
+  }
+  #form-container_wrapper{
+width: 80%;
+  }
 }
