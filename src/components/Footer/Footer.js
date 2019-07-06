@@ -13,15 +13,15 @@ const footer = () => {
     <footer>
       <div className="icons-wrapper">
         <div className="icon-container">
-          <FontAwesomeIcon icon={faSurprise} size={"3x"} />
+          <FontAwesomeIcon icon={faSurprise} size={"3x"} color={"#3399FF"} />
           <p>FaceBook</p>
         </div>
         <div className="icon-container">
-          <FontAwesomeIcon icon={faCoffee} size={"3x"} />
+          <FontAwesomeIcon icon={faCoffee} size={"3x"} color={"#3399FF"} />
           <p>Twitter</p>
         </div>
         <div className="icon-container">
-          <FontAwesomeIcon icon={faGlobeAfrica} size={"3x"} />
+          <FontAwesomeIcon icon={faGlobeAfrica} size={"3x"} color={"#3399FF"} />
           <p>LinkedIn</p>
         </div>
       </div>
