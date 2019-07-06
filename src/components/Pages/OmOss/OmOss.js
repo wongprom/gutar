@@ -39,6 +39,23 @@ const OmOss = (props) => {
             <p>lorem lorem</p>
           </div>
         </div>
+        <div className="box-3">
+          <div className="inner-box">
+            <FontAwesomeIcon icon={faSurprise} size={"3x"} color={"#CC5614"} />
+            <p> 30,000 +  </p>
+            <p>Artiklar</p>
+          </div>
+          <div className="inner-box">
+            <FontAwesomeIcon icon={faCoffee} size={"3x"} color={"#CC5614"} />
+            <p>1999</p>
+            <p>Kom första artikel</p>
+          </div>
+          <div className="inner-box">
+            <FontAwesomeIcon icon={faGlobeAfrica} size={"3x"} color={"#CC5614"} />
+            <p>2017</p>
+            <p>lorem lorem</p>
+          </div>
+        </div>
       </div>
     </>
   );
