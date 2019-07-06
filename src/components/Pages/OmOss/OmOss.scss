@@ -1,9 +1,60 @@
 @import "../../../utilities/variables";
 
 #om-oss{
-  height: 100vh;
-  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  border: 1px solid red;
   margin-top: 90px;
-  
+  .box-1{
+    
+    font-size:$FontSizeDefault4;
+    // padding: 2rem;
+    margin-top: 2rem;
+    border: 1px solid blue; 
+    width: 80%;
+    h1{
+      margin: 0 auto;
+    }
+    span{
+      font-weight: 700;
+    }
+    .who{
+     margin: 1rem 0;
 
+    }
+    .what{
+
+    }
+    .why{
+      margin: 1rem 0;
+    }
+  }
+  .box-2{ 
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid pink; 
+    width: 80%;
+    margin: 2rem 0;
+
+    .inner-box{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 80%;
+      // width: 100%;
+      // margin:2rem;
+      height: 150px;
+      font-weight: 700;
+      background-color: $PrimaryGray;
+      margin: 1rem 0;
+      p:first-of-type{
+        margin-top: 0.5rem;
+      }
+    }
+  }
 }
