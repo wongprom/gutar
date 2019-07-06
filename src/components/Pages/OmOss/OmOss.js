@@ -2,7 +2,7 @@ import React from 'react';
 import "./OmOss.scss";
 import Divider from '../../Divider/Divider';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee, faGlobeAfrica, faSurprise } from '@fortawesome/free-solid-svg-icons'
+import { faCoffee, faGlobeAfrica, faSurprise, faNewspaper } from '@fortawesome/free-solid-svg-icons'
 
 const OmOss = (props) => {
   console.log(props)
@@ -24,7 +24,7 @@ const OmOss = (props) => {
         </div>
         <div className="box-2">
           <div className="inner-box">
-            <FontAwesomeIcon icon={faSurprise} size={"3x"} color={"#CC5614"} />
+            <FontAwesomeIcon icon={faNewspaper} size={"3x"} color={"#CC5614"} />
             <p> 30,000 +  </p>
             <p>Artiklar</p>
           </div>
