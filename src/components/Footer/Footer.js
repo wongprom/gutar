@@ -3,6 +3,8 @@ import './Footer.scss';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCoffee, faGlobeAfrica, faSurprise } from '@fortawesome/free-solid-svg-icons'
+import { faAngellist, faFacebookF } from '@fortawesome/free-brands-svg-icons'
+
 // import { faFileArchive } from '@fortawesome/free-solid-svg-icons'
 
 
@@ -13,11 +15,11 @@ const footer = () => {
     <footer>
       <div className="icons-wrapper">
         <div className="icon-container">
-          <FontAwesomeIcon icon={faSurprise} size={"3x"} color={"#3399FF"} />
+          <FontAwesomeIcon icon={faAngellist} size={"3x"} color={"#3399FF"} />
           <p>FaceBook</p>
         </div>
         <div className="icon-container">
-          <FontAwesomeIcon icon={faCoffee} size={"3x"} color={"#3399FF"} />
+          <FontAwesomeIcon icon={faFacebookF} size={"3x"} color={"#3399FF"} />
           <p>Twitter</p>
         </div>
         <div className="icon-container">
