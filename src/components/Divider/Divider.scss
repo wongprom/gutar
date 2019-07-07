@@ -11,7 +11,7 @@
     margin-left: 10px;  
   }
 
-  // fixed position under NavBar
+  // mixin for fixed position under navbar
 }
 .divider-fixed {
   @include fixed-divider-under-navbar;
