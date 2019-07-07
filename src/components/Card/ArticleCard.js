@@ -1,14 +1,9 @@
 import React from 'react';
-import testImage from '../../images/nature-test.jpg';
 
 import './ArticleCard.scss';
 
 const ArticleCard = (props) => {
-  const test = props.articleContent;
-
-
   return (
-
     <>
       <div className="scroll-container">
         <div className="card">
@@ -23,7 +18,6 @@ const ArticleCard = (props) => {
         </div>
       </div>
     </>
-
   );
 };
 export default ArticleCard;
