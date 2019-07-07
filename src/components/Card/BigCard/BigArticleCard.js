@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 import '../BigCard/BigArticleCard.scss';
 
 const BigArticleCard = (props) => {
