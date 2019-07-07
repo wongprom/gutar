@@ -1,6 +1,6 @@
 @import "../../utilities/variables";
 
-.btn{
+button{
   background-color: $PrimaryLightBlue;
   color:$PrimaryWhite;
   height: 40px;
@@ -10,7 +10,6 @@ font-size: 1.2rem;
   margin-top: 1rem;
   cursor: pointer;
   border: none;
-  // box-shadow: 0 2px #999;
   &:hover{
     background-color:$PrimaryWhite;
     color:$PrimaryLightBlue;
