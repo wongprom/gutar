@@ -1,14 +1,9 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import './Footer.scss';
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee, faGlobeAfrica, faSurprise } from '@fortawesome/free-solid-svg-icons'
-import { faAngellist, faFacebookF, faTwitter, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
-
-// import { faFileArchive } from '@fortawesome/free-solid-svg-icons'
-
-
-import { NavLink } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebookF, faTwitter, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 
 const footer = () => {
   return (
