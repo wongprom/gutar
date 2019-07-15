@@ -4,7 +4,6 @@ import './FormContainer.scss';
 
 import Input from '../Input/Input';
 import TextArea from '../TextArea/TextArea';
-
 import Button from '../Button/Button'
 
 export class FormContainer extends Component {
@@ -59,17 +58,12 @@ export class FormContainer extends Component {
     let name = e.target.name;
     this.setState(prevState => {
       return {
-        user:
-        {
-          ...prevState.user, [name]: value
-        }
+        user: { ...prevState.user, [name]: value }
       }
-
     }, () => console.log(this.state.user))
   }
 
   render() {
-
     return (
       <form>
         <div className="container">
@@ -81,7 +75,6 @@ export class FormContainer extends Component {
             placeholder={'Namn'}
             handleChange={this.InputHandler}
           />
-
           <Input
             title={'E-post adress'}
             type={'text'}
@@ -90,7 +83,6 @@ export class FormContainer extends Component {
             placeholder={'E-post adress'}
             handleChange={this.InputHandler}
           />
-
           <TextArea
             title={'Din text'}
             name={"about"}
@@ -100,7 +92,6 @@ export class FormContainer extends Component {
             handleChange={this.InputHandler}
             placeholder={"Din text"}
           />
-
           <div className="btn-container">
             <Button
               title={"Skicka"}
@@ -110,7 +101,6 @@ export class FormContainer extends Component {
           </div>
         </div>
       </form>
-
     )
   }
 }
