@@ -13,7 +13,6 @@
   width: 100%;
   background: $PrimaryGray;
   height: 60px;
-
   .navBarNavigation {
     display: flex;
     height: 100%;
@@ -24,7 +23,6 @@
       font-size: 1.5rem;
       padding-left:1rem;
     }
-
     .search-container {
       flex: 1;
       .search {
@@ -46,7 +44,6 @@
         }
       } 
     }
-
     .navBarNavigationItems {
       ul {
         display: flex;
@@ -66,8 +63,6 @@
     }
   }
 }
-
-
 
 @media (max-width: 992px) {
   .navBarNavigationItems {

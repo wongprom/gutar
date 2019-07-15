@@ -60,7 +60,6 @@ function NavBar(props) {
       </nav>
     </header >
   )
-
 };
 
 export default NavBar;
