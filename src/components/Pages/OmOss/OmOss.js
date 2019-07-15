@@ -5,7 +5,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCoffee, faGlobeAfrica, faSurprise, faNewspaper } from '@fortawesome/free-solid-svg-icons'
 
 const OmOss = (props) => {
-  console.log(props)
   return (
     <>
       <Divider header={"Om Oss"} path={props.path} />

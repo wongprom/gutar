@@ -1,16 +1,14 @@
 @import "../../../utilities/variables";
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {} 
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
+
+/*  767px and down) */
 @media only screen and (max-width: 767px) {
   #om-oss{
     display: flex;
     flex-direction: column;
     align-items: center;
     min-height: 100vh;
-    border: 1px solid red;
     margin-top: 90px;
     .box-1{
       font-size:$FontSizeDefault4;
@@ -24,23 +22,17 @@
       }
       .who{
        margin: 1rem 0;
-  
-      }
-      .what{
-  
       }
       .why{
         margin: 1rem 0;
       }
     }
     .box-2{ 
-      
       display: flex;
       flex-direction: column;
       align-items: center;
       width: 80%;
       margin: 2rem 0;
-  
       .inner-box{
         display: flex;
         flex-direction: column;
@@ -62,7 +54,6 @@
       align-items: center;
       width: 80%;
       margin: 2rem 0;
-  
       .inner-box{
         display: flex;
         flex-direction: column;
@@ -81,7 +72,7 @@
   }
 } 
 
-/* Medium devices (landscape tablets, 768px and up) */
+/* 768px and up) */
 @media only screen and (min-width: 768px) {
   #om-oss{
     display: flex;
@@ -90,7 +81,6 @@
     min-height: 100vh;
     margin-top: 90px;
     .box-1{
-      
       font-size:$FontSizeDefault4;
       margin-top: 2rem;
       width: 80%;
@@ -102,22 +92,16 @@
       }
       .who{
        margin: 1rem 0;
-  
-      }
-      .what{
-  
       }
       .why{
         margin: 1rem 0;
       }
     }
     .box-2{ 
-      
       display: flex;
       align-items: center;
       width: 80%;
       margin: 2rem 0;
-  
       .inner-box{
         display: flex;
         flex-direction: column;
@@ -134,12 +118,10 @@
       }
     }
     .box-3{ 
-      
       display: flex;
       align-items: center; 
       width: 80%;
       margin: 2rem 0;
-  
       .inner-box{
         display: flex;
         flex-direction: column;
@@ -157,9 +139,3 @@
     }
   }
 } 
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {} 
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {}
