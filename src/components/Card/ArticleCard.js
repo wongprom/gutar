@@ -13,7 +13,9 @@ const ArticleCard = (props) => {
           <div className="text-container">
             <p className="headline">{props.heading}</p>
             <p className="text">{props.articleContent}</p>
-            <a href="#">läs mer</a>
+
+            {/* outcomment for know when the functionality not exist yet, prewent warning */}
+            {/* <a href="#">läs mer</a> */}
           </div>
         </div>
       </div>
