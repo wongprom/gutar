@@ -4,18 +4,11 @@ import HeroSection from '../../HeroSection/HeroSection';
 import Divider from '../../Divider/Divider';
 import FormContainer from '../../FormContainer/FormContainer';
 
-import SockenBlock from '../../Card/SockenBlock';
-
 import './Hem.scss';
-
 import { articles } from "../../../utilities/fakeData";
-
-import testImage from '../../../images/nature-test.jpg';
-
 
 const Hem = () => {
   const data = articles;
-
   const mestLastaArtikel = 'Mest Lästa Artikel';
   const nyastArtiklar = 'Nyast Artiklar';
   const kontaktaOss = "Kontakta Oss"
@@ -29,7 +22,7 @@ const Hem = () => {
       <HeroSection />
       <Divider className={defaultStyling} header={nyastArtiklar} />
       <div className="scroll-section">
-        {/* outPut amount of cards with content depending on length of data */}
+        {/* output amount of cards with content depending on length of data */}
         {data.map(item =>
           <ArticleCard
             heading={item.heading}
@@ -37,7 +30,6 @@ const Hem = () => {
             img={item.img}
           />
         )}
-
       </div>
       <Divider className={defaultStyling} header={mestLastaArtikel} />
       <div className="scroll-section">
@@ -56,7 +48,6 @@ const Hem = () => {
           <FormContainer />
         </div>
       </div>
-
     </div>
   );
 };
