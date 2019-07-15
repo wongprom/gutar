@@ -25,6 +25,7 @@ const Hem = () => {
         {/* output amount of cards with content depending on length of data */}
         {data.map(item =>
           <ArticleCard
+            key={item.id}
             heading={item.heading}
             articleContent={item.articleContent}
             img={item.img}
@@ -35,6 +36,7 @@ const Hem = () => {
       <div className="scroll-section">
         {data.map(item =>
           <ArticleCard
+            key={item.id}
             heading={item.heading}
             articleContent={item.articleContent}
             img={item.img}

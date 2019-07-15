@@ -16,7 +16,6 @@ export class FormContainer extends Component {
   }
 
   formSubmitHandler = (e) => {
-    console.log("formSubmitHandler körs");
     //Submit form
     e.preventDefault();
   }
@@ -24,33 +23,6 @@ export class FormContainer extends Component {
     //Reset form
     e.preventDefault();
   }
-
-  // fullNameHandler = (e) => {
-  //   let value = e.target.value;
-  //   this.setState(prevState => ({
-  //     user:
-  //       { ...prevState.user, name: value }
-  //   }), () => console.log(this.state.user))
-  // }
-
-  // emailHandler = (e) => {
-  //   let value = e.target.value;
-  //   this.setState(prevState => ({
-  //     user:
-  //     {
-  //       ...prevState.user, email: value
-  //     }
-  //   }), () => console.log(this.state.user))
-  // }
-  // textAreaHandler = (e) => {
-  //   let value = e.target.value;
-  //   this.setState(prevState => ({
-  //     user:
-  //     {
-  //       ...prevState.user, about: value
-  //     }
-  //   }), () => console.log(this.state.user))
-  // }
 
   //Works for all inputs
   InputHandler = (e) => {

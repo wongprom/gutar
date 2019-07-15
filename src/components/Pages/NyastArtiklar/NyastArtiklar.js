@@ -22,6 +22,7 @@ const NyastArtiklar = (props) => {
         {/* OutPut amount of cards depending on data */}
         {data.map(item =>
           <BigArticleCard
+            key={item.id}
             heading={item.heading}
             articleContent={item.articleContent}
             img={item.img}

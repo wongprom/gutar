@@ -12,7 +12,6 @@ const KontaktaOss = (props) => {
   // if URL contain "/KontaktaOss", make divider fixed.
   const divider = props.match.path === "/KontaktaOss" && <Divider className={fixedDivider.className} header={header} />
 
-  console.log(props)
   return (
     <div className="kontaktaOss" >
       {divider}
@@ -20,7 +19,7 @@ const KontaktaOss = (props) => {
         <p>Kontakta Oss</p>
       </div>
       <div id="header-image">
-        <img src={contactUs} />
+        <img src={contactUs} alt="smiling girl with glasses play on her smartphone" />
       </div>
       <div className="formContainerWrapper">
         <FormContainer />
