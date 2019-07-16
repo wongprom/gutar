@@ -32,5 +32,7 @@ These instructions will get you a copy of the project up and running on your loc
 * `Express`
 
 
-##### test :)
+##### My notes
+###### Changes to this project must be pusched from master branch.
+
 
