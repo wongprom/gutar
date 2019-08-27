@@ -34,7 +34,7 @@ class App extends Component {
       backdrop = <Backdrop backdropClickHandler={this.backdropClickHandler} />;
     }
     return (
-      <BrowserRouter basename="/">
+      <BrowserRouter>
         <div className="site">
           <NavBar
             hamburgerToggleClickHandler={this.hamburgerToggleClickHandler}
@@ -45,7 +45,7 @@ class App extends Component {
           {backdrop}
           <main>
             <Switch>
-              <Route path="/" exact component={Hem} />
+              <Route path="gutar/" exact component={Hem} />
               <Route path="/NyastArtiklar" component={NyastArtiklar} />
               <Route path="/MestLastaArtiklar" component={MestLastaArtiklar} />
               <Route path="/Socknar" component={Socknar} />
