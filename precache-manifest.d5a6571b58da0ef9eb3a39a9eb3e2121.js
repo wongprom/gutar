@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "2d045de901367bda1549",
+    "revision": "3481ef12ee22bf616b0a",
     "url": "/gutar/static/css/main.b2c51d86.chunk.css"
   },
   {
-    "revision": "2d045de901367bda1549",
-    "url": "/gutar/static/js/main.2d045de9.chunk.js"
+    "revision": "3481ef12ee22bf616b0a",
+    "url": "/gutar/static/js/main.3481ef12.chunk.js"
   },
   {
     "revision": "1dfe19fb997c1afb60b6",
@@ -32,7 +32,7 @@ self.__precacheManifest = [
     "url": "/gutar/static/media/contact-us.cd8ee26d.jpg"
   },
   {
-    "revision": "8a160ce28c1ac28b9832f9c344ab718c",
+    "revision": "7af639718eeb5b851b8e40bca13855c7",
     "url": "/gutar/index.html"
   }
 ];
