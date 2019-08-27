@@ -34,7 +34,7 @@ class App extends Component {
       backdrop = <Backdrop backdropClickHandler={this.backdropClickHandler} />;
     }
     return (
-      <BrowserRouter>
+      <BrowserRouter basename="/">
         <div className="site">
           <NavBar
             hamburgerToggleClickHandler={this.hamburgerToggleClickHandler}
